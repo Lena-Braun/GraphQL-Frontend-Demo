@@ -1,0 +1,70 @@
+.tw-connected-wallet {
+  background: #8952e085 !important;
+  border-radius: 50px !important;
+}
+
+.tw-connected-wallet__balance {
+  color: #b5b5b5 !important;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 240px !important;
+  height: 300px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination {
+  position: unset !important;
+  margin-top: 10px;
+}
+
+.swiper-pagination-bullet {
+  /* Sliding Point */
+  width: 15px !important;
+  height: 15px !important;
+  left: 884px !important;
+  top: 595px !important;
+
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(75px) !important;
+  transform: skew(20deg);
+  border-radius: unset !important;
+  /* Note: backdrop-filter has minimal browser support */
+
+}
+
+.swiper-pagination-bullet-active {
+  /* Sliding Point */
+  width: 15px !important;
+  height: 15px !important;
+  left: 884px !important;
+  top: 595px !important;
+
+  background: #FFD700 !important;
+  backdrop-filter: blur(75px) !important;
+  /* Note: backdrop-filter has minimal browser support */
+
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-slide {
+    width: 150px !important;
+    /* Adjust width for mobile */
+    height: 200px !important;
+    /* Adjust height for mobile */
+    background-size: contain !important;
+    /* Optional: Change background size */
+  }
+}
